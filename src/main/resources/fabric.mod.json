@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ways-anchor-optimiser",
+	"version": "${version}",
+	"name": "Ways Anchor Optimiser",
+	"icon": "icon.png",
+	"description": "Removes the annoying placement delay when swapping items.",
+	"authors": [
+		"wayysss"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com",
+		"sources": "https://github.com/wayysss/ways-anchor-optimiser"
+	},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"modmenu": [
+			"com.wayysss.anchor.nsdmdmapi"
+		]
+	},
+	"mixins": [
+		"ways-anchor-optimiser.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": "*"
+	}
+}
