@@ -1,3 +1,5 @@
+<p align="center"><img src="src/main/resources/icon.png" width="128"></p>
+
 # ways anchor optimiser
 
 client side fabric mod for minecraft 1.21.11 that makes anchoring faster. it works while you hold a respawn anchor or glowstone.
